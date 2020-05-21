@@ -1,0 +1,247 @@
+*,
+body {
+	margin: 0;
+	padding: 0;
+}
+.logo-img {
+	float: left;
+}
+li img {
+	width: 15px;
+}
+.first-container {
+	width: 100%;
+	height: 800px;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+}
+.main-menu {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 0) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 0) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(
+			startColorstr='#ffffff',
+			endColorstr='#00ffffff',
+			GradientType=0
+		); /* IE6-9 */
+	height: 50px;
+	width: 100%;
+}
+#main-menu {
+	float: right;
+}
+#main-menu li {
+	margin-top: 20px;
+	list-style-type: none;
+	display: inline-block;
+}
+#main-menu li a {
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+}
+#main-menu li a:hover {
+	background-color: #b2dd4c;
+	transition: all .5s ease-out;
+}
+.main-buttons {
+	margin-top: 30px;
+}
+.main-buttons button {
+	background-color: #f5f5f5;
+	padding: 10px 25px;
+	border: 1px solid #eeeeee;
+}
+.main-buttons button:hover {
+	border: 1px solid gray;
+}
+#main-titels {
+	font-size: 20px;
+	width: 320px;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+#triangle-container div {
+	position: absolute;
+}
+#triangle {
+	margin-top: 650px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 100vw 150px 0;
+	border-color: transparent transparent white transparent;
+}
+.features {
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	margin: 40px auto;
+}
+.main-services {
+	margin-bottom: 30px;
+}
+.main-services img {
+	border-radius: 50%;
+}
+.service h3 {
+	margin-bottom: 25px;
+}
+.service {
+	margin-bottom: 50px;
+	width: 24%;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+}
+.service img {
+	width: 100px;
+	height: 120px;
+}
+.main-services button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: transparent;
+}
+#triangle-container2 div {
+	position: absolute;
+	top: 1335px;
+}
+#triangle2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 150px 100vw 0 0;
+	border-color: white transparent transparent transparent;
+}
+.exclusive > img {
+	float: right;
+	width: 33%;
+}
+.exclusive {
+	text-align: justify;
+}
+.using-app {
+	padding-top: 250px;
+	background-color: #f5f5f5;
+	width: 66%;
+	float: right;
+	height: 620px;
+	text-align: center;
+}
+.using-app p {
+	margin: 30px 250px;
+	text-align: justify;
+}
+.using-app img {
+	margin: 20px 20px;
+}
+#triangle-container3 div {
+	position: absolute;
+	top: 2065px;
+}
+#triangle3 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 150px 100vw;
+	border-color: transparent transparent white transparent;
+}
+
+.related {
+	margin-top: 100px;
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+}
+.related-products {
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+.product-format {
+	margin: auto;
+	text-align: center;
+	margin: 100px 30px;
+	border: 2px outset #eeeeee;
+	float: left;
+}
+.product-format > img {
+	width: 253px;
+	margin: 0 auto;
+	border: 2px solid #f5f5f5;
+}
+.product-format p {
+	text-align: left;
+	padding-left: 10px;
+}
+.product-format button {
+	padding: 10px 25px;
+	background-color: transparent;
+}
+.product-format button:hover {
+	background-color: #f5f5f5;
+}
+.stars {
+	margin: auto;
+	width: 100%;
+	display: flex;
+}
+.stars p {
+	width: 40%;
+}
+.checked {
+	color: yellow;
+}
+.fa fa-star {
+	color: white;
+}
+.star {
+	padding-top: 10px;
+	width: 40%;
+}
+.price {
+	margin: 10px 0px;
+	color: red;
+	font-weight: bold;
+}
+.last-div {
+	width: 100%;
+	height: 100px;
+	background-color: #f5f5f5;
+	float: left;
+}
+.last-div p {
+	margin-top: 20px;
+	float: left;
+	padding: 20px;
+}
+.last-div button {
+	margin-top: 30px;
+	margin-right: 50px;
+	float: right;
+	padding: 10px 20px;
+	background-color: transparent;
+}
+.last-div button :hover {
+	background-color: gray;
+}
+.foot {
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	color: black;
+}
